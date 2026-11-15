@@ -1,4 +1,4 @@
-package maratonajava;
+package maratonajava.IntroducaoJava;
 
 import javax.swing.*;
 import java.awt.*;
