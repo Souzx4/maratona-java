@@ -14,7 +14,6 @@ public abstract class Veiculo {
     }
 
     public double getAutonomiaBateria() {
-        return autonomiaBateria;
     }
 
     public void setAutonomiaBateria(double bateria) {

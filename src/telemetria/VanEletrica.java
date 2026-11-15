@@ -16,7 +16,5 @@ public class VanEletrica extends Veiculo {
         double consumo = distancia * 0.5;
         double bateriaRestante = getAutonomiaBateria() - consumo;
         setAutonomiaBateria(bateriaRestante);
-        System.out.println("Van Eletrica (" + this.modelo + " - Placa: " + this.placaIdentificacao + ") percorreu" +
-                distancia + " km. Nivel de bateria resultante: " + getAutonomiaBateria() + "%");
     }
 }
