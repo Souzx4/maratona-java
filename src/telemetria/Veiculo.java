@@ -2,8 +2,8 @@ package telemetria;
 
 public abstract class Veiculo {
     protected int idVeiculo;
-    protected  String modelo;
-    protected  double capacidadeCarga;
+    protected String modelo;
+    protected double capacidadeCarga;
     private double autonomiaBateria;
 
     public Veiculo() {
@@ -14,10 +14,11 @@ public abstract class Veiculo {
     }
 
     public double getAutonomiaBateria() {
+        return this.autonomiaBateria;
     }
 
     public void setAutonomiaBateria(double bateria) {
-        if (bateria < 0.0 || bateria > 100.0){
+        if (bateria < 0.0 || bateria > 100.0) {
             this.autonomiaBateria = 0.0;
         } else {
             this.autonomiaBateria = bateria;
